@@ -11,11 +11,12 @@ public class FreeNetInfo {
 
     /**
      * 判断是否连接网络
-     * 
+     *
      * @param context
      * @return
      */
     public static boolean isNetworkAvailable(Context context) {
+
         ConnectivityManager conManager = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo networkInfo = conManager.getActiveNetworkInfo();
 
@@ -24,7 +25,7 @@ public class FreeNetInfo {
 
     /**
      * 判断网络是否连接的是Wifi
-     * 
+     *
      * @param context
      * @return
      */
