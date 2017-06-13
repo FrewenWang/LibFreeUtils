@@ -15,3 +15,8 @@ freeutils/src/main/res/drawable/
 /.gradle/
 /app/build/
 /freeutils/build/
+!/.idea/
+!/.gradle/
+.idea/libraries/
+.idea/vcs.xml
+.idea/workspace.xml
